@@ -1,1 +1,1 @@
-![framework](./img/framwork.png)
+![framework](./imgs/framwork.png)
