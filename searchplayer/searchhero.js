@@ -19,10 +19,20 @@ function getUserID() {
 // }
 // function guesstheregion() {
 //     var language = navigator.language;
+//     // alert(language);
+//     var country = language.split("-");
+//     language = country[1];
 //     alert(language);
-//     // if (language = "zh-CN"){
-//     //     //提醒无法查询
-//     // }
+//     switch (language) {
+//         case "CN":
+//             break;
+//         case  "US":
+//             break;
+//         case "RU":
+//             break;
+//         default:
+//             //默认设置成月球基地
+//     }
 // }
 function myfunction() {
     var tankrank = "";
@@ -46,7 +56,7 @@ function myfunction() {
             username = data.usename;
         })
 }
-guesstheregion();
+// guesstheregion();
 // getIpAddress();
 // myfunction();
 // alert("Its a test for the file");
