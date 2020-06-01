@@ -29,6 +29,15 @@ function myfunction() {
             if (!tankrank){
                 tankrank = "Unranked";
             }
+            if (!damagerank){
+                damagerank = "Unranked";
+            }
+            if (!supportrank){
+                supportrank = "Unranked";
+            }
+            document.getElementById("supportrank").innerHTML=supportrank;
+            document.getElementById("tankrank").innerHTML=tankrank;
+            document.getElementById("damagerank").innerHTML=damagerank;
             username = data.usename;
         })
 }
