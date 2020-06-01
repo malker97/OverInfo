@@ -1,7 +1,7 @@
 // const url = "http://owapi.io/profile/pc/us/臺灣省長蔡英文-4640";
 
 // const url = "http://owapi.io/profile/pc/us/malker-1273";
-const url = "http://owapi.io/profile/pc/us/";
+var url = "http://owapi.io/profile/pc/us/";
 function getUserID() {
     var playerid = "";
     var inputtext = document.getElementById("playerid");
@@ -9,6 +9,21 @@ function getUserID() {
     playerid = playerid.replace(/#/,"-");
     return playerid;
 }
+// function getIpAddress() {
+//     var newurl = "https://api.ipify.org?format=json";
+//     fetch(newurl)
+//         .then((res) => res.json())
+//         .then((data) => {
+//             alert(data.ip);
+//         })
+// }
+// function guesstheregion() {
+//     var language = navigator.language;
+//     alert(language);
+//     // if (language = "zh-CN"){
+//     //     //提醒无法查询
+//     // }
+// }
 function myfunction() {
     var tankrank = "";
     var damagerank = "";
@@ -31,5 +46,7 @@ function myfunction() {
             username = data.usename;
         })
 }
+guesstheregion();
+// getIpAddress();
 // myfunction();
 // alert("Its a test for the file");
