@@ -9,31 +9,7 @@ function getUserID() {
     playerid = playerid.replace(/#/,"-");
     return playerid;
 }
-// function getIpAddress() {
-//     var newurl = "https://api.ipify.org?format=json";
-//     fetch(newurl)
-//         .then((res) => res.json())
-//         .then((data) => {
-//             alert(data.ip);
-//         })
-// }
-// function guesstheregion() {
-//     var language = navigator.language;
-//     // alert(language);
-//     var country = language.split("-");
-//     language = country[1];
-//     alert(language);
-//     switch (language) {
-//         case "CN":
-//             break;
-//         case  "US":
-//             break;
-//         case "RU":
-//             break;
-//         default:
-//             //默认设置成月球基地
-//     }
-// }
+
 function myfunction() {
     var tankrank = "";
     var damagerank = "";
@@ -60,3 +36,28 @@ function myfunction() {
 // getIpAddress();
 // myfunction();
 // alert("Its a test for the file");
+// function getIpAddress() {
+//     var newurl = "https://api.ipify.org?format=json";
+//     fetch(newurl)
+//         .then((res) => res.json())
+//         .then((data) => {
+//             alert(data.ip);
+//         })
+// }
+// function guesstheregion() {
+//     var language = navigator.language;
+//     // alert(language);
+//     var country = language.split("-");
+//     language = country[1];
+//     alert(language);
+//     switch (language) {
+//         case "CN":
+//             break;
+//         case  "US":
+//             break;
+//         case "RU":
+//             break;
+//         default:
+//             //默认设置成月球基地
+//     }
+// }
