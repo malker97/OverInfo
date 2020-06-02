@@ -175,7 +175,28 @@
 
     </header>
     <!--End Main Header-->
-
+    <section class="about-us sp-two">
+        <div class="container">
+            <select name="platform" id="platform-select">
+                <option value="PlayStation">Play Station</option>
+                <option value="Xbox">Xbox</option>
+                <option value="PC">PC</option>
+            </select>
+            <select name="region" id="region-select">
+                <option value="us">US</option>
+                <option value="cn">CN</option>
+                <option value="as">AS</option>
+                <option value="eu">EU</option>
+            </select>
+            <br>
+            <input type="text" id="playerid" value="臺灣省長蔡英文#4640">
+            <input type="submit" id="submit" onclick="myfunction()">
+            <!--   这三个要设置成居中三连-->
+            <div id="supportrank"></div>
+            <div id="tankrank"></div>
+            <div id="damagerank"></div>
+        </div>
+    </section>
 
 
     </section>
@@ -211,9 +232,6 @@
                             </div>
                         </div>
                         <!-- end -->
-
-
-
                     </div>
                 </div>
             </div>
@@ -247,6 +265,7 @@
 <script src="js/jquery.js"></script>
 
 <!--Revolution Slider-->
+<script src="./searchplayer/searchhero.js"></script>
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>
 <script src="plugins/revolution/js/jquery.themepunch.tools.min.js"></script>
