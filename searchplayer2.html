@@ -183,47 +183,48 @@
 	<!--End Page Title-->
 	
     <!--End Main Header-->
-    <!--<section class="about-us sp-two">
+    <section class="about-us sp-two">
         <div class="container">
-            <select name="platform" id="platform-select">
-                <option value="PlayStation">Play Station</option>
-                <option value="Xbox">Xbox</option>
-                <option value="PC">PC</option>
-            </select>
-            <select name="region" id="region-select">
-                <option value="us">US</option>
-                <option value="cn">CN</option>
-                <option value="as">AS</option>
-                <option value="eu">EU</option>
-            </select>
-            <br>
-            <input type="text" id="playerid" value="臺灣省長蔡英文#4640">
-            <input type="submit" id="submit" onclick="myfunction()">
-            &lt;!&ndash;   这三个要设置成居中三连&ndash;&gt;
-            <div id="supportrank"></div>
-            <div id="tankrank"></div>
-            <div id="damagerank"></div>
+            <div class="col-md-6 col-sm-6 col-xs-12 form-group">
+                <select name="platform" id="platform-select" class="custom-select-box">
+                    <option value="PlayStation">Play Station</option>
+                    <option value="Xbox">Xbox</option>
+                    <option value="PC">PC</option>
+                </select>
+                <select name="region" id="region-select" class="custom-select-box">
+                    <option value="us">US</option>
+                    <option value="cn">CN</option>
+                    <option value="as">AS</option>
+                    <option value="eu">EU</option>
+                </select>
+                <input type="text" id="playerid"  placeholder="Account ID*" value="臺灣省長蔡英文#4640">
+                <button type="button" id="submit" class="theme-btn btn-style-two w-100" onclick="myfunction()">Search Now!</button>
+                <!--   这三个要设置成居中三连-->
+                <div id="supportrank"></div>
+                <div id="tankrank"></div>
+                <div id="damagerank"></div>
+            </div>
         </div>
-    </section>-->
-    <section class="contact-section sp-one">
+    </section>
+    <!--<section class="contact-section sp-one">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-md-7 col-sm-12 pr-md-0">
                     <div class="form-bg-one">
-                        <!--Sec Title-->
+                        &lt;!&ndash;Sec Title&ndash;&gt;
                         <div class="sec-title">
                             <h2>Find Player Information</h2>
-<!--                            <div class="text mt-4">We recently helped a small business grow from break-even to over $1 Million profit in less than 2 years, Have a general question, find below contact details .</div>-->
+&lt;!&ndash;                            <div class="text mt-4">We recently helped a small business grow from break-even to over $1 Million profit in less than 2 years, Have a general question, find below contact details .</div>&ndash;&gt;
                             <div class="text mt-4">We use an open source interface to query online players who are allowed to disclose information.</div>
                         </div>
-                        <!-- Contact Form -->
+                        &lt;!&ndash; Contact Form &ndash;&gt;
                         <div class="contact-form style-two">
-                            <!--Comment Form-->
+                            &lt;!&ndash;Comment Form&ndash;&gt;
                             <form method="post" action="sendemail.php" id="contact-form">
                                 <div class="row clearfix">
                                     <div class="col-md-6 col-sm-6 col-xs-12 form-group">
                                         <input type="text" id="playerid" name="username" placeholder="Account ID*" value="DrJoystick#2756" required>
-<!--                                        <input type="text" name="phone" placeholder="Phone Number *" required>-->
+&lt;!&ndash;                                        <input type="text" name="phone" placeholder="Phone Number *" required>&ndash;&gt;
                                         <select class="custom-select-box">
                                             <option value="defult">Please Select Your Platform</option>
                                             <option value="PC">PC</option>
@@ -239,7 +240,7 @@
                                         </select>
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12 form-group">
-                                            <button type="button" id="submit" class="theme-btn btn-style-two w-100" onclick="myfunction()">Search Now!</button>
+                                            <button id="submit" class="theme-btn btn-style-two w-100" onclick="myfunction()">Search Now!</button>
                                     </div>
                                 </div>
                             </form>
@@ -255,7 +256,7 @@
 
         </div>
     </section>
-    </section>
+    </section>-->
 
     <!--Main Footer-->
     <footer class="main-footer">
