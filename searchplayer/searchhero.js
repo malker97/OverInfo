@@ -41,6 +41,7 @@ function myfunction() {
             username = data.usename;
         })
 }
+// alert("这个文件被调用了!");
 // guesstheregion();
 // getIpAddress();
 // myfunction();
