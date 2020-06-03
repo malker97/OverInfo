@@ -1,5 +1,14 @@
+function gettimezone() {
+    var timer = new Date();
+    var gmtHours = timer.getTimezoneOffset()/60;
+    // alert(gmtHours);
+    return gmtHours;
+}
 function ShowTimes(){
-    var AfterTime= new Date("2020/06/25 00:00:00");//活动截止时间
+    var gmthours = gettimezone();
+    var diffhr = 24 - gmthours;
+    var expressday = "2020/06/25 00:"+diffhr+":00"
+    var AfterTime= new Date(expressday);//活动截止时间
     LeaveTime = AfterTime - new Date();
     LeaveDays=Math.floor(LeaveTime/(1000*60*60*24));//天
     LeaveHours=Math.floor(LeaveTime/(1000*60*60)%24);//时
