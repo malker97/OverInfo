@@ -175,9 +175,10 @@
 
     </header>
 	<!--Page Title-->
-	<section class="page-title" style="background-image:url(images/background/search-background.jpg);">
+<!--	<section id="tiltejpg" class="page-title" style="background-image:url(images/background/search-background.jpg);">-->
+    <section id="tiltejpg" class="page-title" style="background-image:url(images/background/search-background.jpg);">
 	    <div class="container">
-	        <h1>Search Players</h1>
+	        <h1 id="titleofpage">Search Players</h1>
 	    </div>
 	</section>
 	<!--End Page Title-->
@@ -246,11 +247,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-5 col-sm-12 pl-md-0">
-                    <div id="supportrank"></div>
-                    <div id="tankrank"></div>
-                    <div id="damagerank"></div>
+
+                <div class="container">
+                    <div class="row">
+                        <h4 id="username" ></h4>
+                    </div>
                 </div>
+                <img id="headicon" src="" alt="">
+                <div class="container">
+                    <div class="row row-cols-3">
+                        <div><img id="supportimg" alt=""></div>
+                        <h4 class="col" id="supportrank"></h4>
+                        <div><img id="tankimg" alt=""></div>
+                        <h4 class="col" id="tankrank"></h4>
+                        <div><img id="dpsimg" alt=""></div>
+                        <h4 class="col" id="damagerank"></h4>
+                    </div>
+                </div>
+
+<!--                <div class="container">-->
+<!--                    <div class="row row-cols-3">-->
+<!--                        <div><img id="supportimg" alt=""></div>-->
+<!--                        <h4 class="col" id="supportrank"></h4>-->
+<!--                        <div><img id="tankimg" alt=""></div>-->
+<!--                        <h4 class="col" id="tankrank"></h4>-->
+<!--                        <div><img id="dpsimg" alt=""></div>-->
+<!--                        <h4 class="col" id="damagerank"></h4>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
 
         </div>
@@ -321,6 +345,8 @@
 <script src="js/jquery.js"></script>
 
 <!--Revolution Slider-->
+<!--<script src="js/findlanguage.js"></script>-->
+<script src="./searchplayer/changebackimg.js"></script>
 <script src="./searchplayer/searchhero.js"></script>
 <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
 <script src="plugins/revolution/js/jquery.themepunch.revolution.min.js"></script>

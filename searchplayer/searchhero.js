@@ -23,6 +23,9 @@ function myfunction() {
         .then((res) => res.json())
         .then((data) => {
             console.log(data);
+            // if (data.private == false){
+            //     alert("你已经关闭生涯了！");
+            // }
             tankrank = data.competitive.tank.rank;
             damagerank = data.competitive.damage.rank;
             supportrank =  data.competitive.support.rank;
@@ -35,10 +38,18 @@ function myfunction() {
             if (!supportrank){
                 supportrank = "Unranked";
             }
-            document.getElementById("supportrank").innerHTML=supportrank;
-            document.getElementById("tankrank").innerHTML=tankrank;
-            document.getElementById("damagerank").innerHTML=damagerank;
-            username = data.usename;
+            username = data.username;
+            document.getElementById("username").innerHTML=username;
+            document.getElementById("headicon").src = data.portrait;
+
+            document.getElementById("supportimg").src="images/resource/support_small.PNG";
+            document.getElementById("tankimg").src="images/resource/tank_small.PNG";
+            document.getElementById("dpsimg").src="images/resource/damage_small.PNG";
+
+            document.getElementById("supportrank").innerHTML="Support: " + supportrank;
+            document.getElementById("tankrank").innerHTML="Tank: " + tankrank;
+            document.getElementById("damagerank").innerHTML="DPS: " + damagerank;
+
         })
 }
 // alert("这个文件被调用了!");
@@ -53,21 +64,4 @@ function myfunction() {
 //         .then((data) => {
 //             alert(data.ip);
 //         })
-// }
-// function guesstheregion() {
-//     var language = navigator.language;
-//     // alert(language);
-//     var country = language.split("-");
-//     language = country[1];
-//     alert(language);
-//     switch (language) {
-//         case "CN":
-//             break;
-//         case  "US":
-//             break;
-//         case "RU":
-//             break;
-//         default:
-//             //默认设置成月球基地
-//     }
 // }
