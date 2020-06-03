@@ -35,9 +35,13 @@ function myfunction() {
             if (!supportrank){
                 supportrank = "Unranked";
             }
-            document.getElementById("supportrank").innerHTML=supportrank;
-            document.getElementById("tankrank").innerHTML=tankrank;
-            document.getElementById("damagerank").innerHTML=damagerank;
+            document.getElementById("supportimg").src="images/resource/support_small.PNG";
+            document.getElementById("tankimg").src="images/resource/tank_small.PNG";
+            document.getElementById("dpsimg").src="images/resource/damage_small.PNG";
+
+            document.getElementById("supportrank").innerHTML="Support: " + supportrank;
+            document.getElementById("tankrank").innerHTML="Tank: " + tankrank;
+            document.getElementById("damagerank").innerHTML="DPS: " + damagerank;
             username = data.usename;
         })
 }
