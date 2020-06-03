@@ -23,6 +23,9 @@ function myfunction() {
         .then((res) => res.json())
         .then((data) => {
             console.log(data);
+            // if (data.private == false){
+            //     alert("你已经关闭生涯了！");
+            // }
             tankrank = data.competitive.tank.rank;
             damagerank = data.competitive.damage.rank;
             supportrank =  data.competitive.support.rank;
@@ -35,6 +38,10 @@ function myfunction() {
             if (!supportrank){
                 supportrank = "Unranked";
             }
+            username = data.username;
+            document.getElementById("username").innerHTML=username;
+            document.getElementById("headicon").src = data.portrait;
+
             document.getElementById("supportimg").src="images/resource/support_small.PNG";
             document.getElementById("tankimg").src="images/resource/tank_small.PNG";
             document.getElementById("dpsimg").src="images/resource/damage_small.PNG";
@@ -42,7 +49,7 @@ function myfunction() {
             document.getElementById("supportrank").innerHTML="Support: " + supportrank;
             document.getElementById("tankrank").innerHTML="Tank: " + tankrank;
             document.getElementById("damagerank").innerHTML="DPS: " + damagerank;
-            username = data.usename;
+
         })
 }
 // alert("这个文件被调用了!");
