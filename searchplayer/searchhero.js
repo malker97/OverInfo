@@ -13,6 +13,7 @@ var userid;
 if (document.cookie != null){
     userid = document.cookie;
     document.getElementById("playerid").value=userid;
+    // document.cookie = null;
     // alert(userid)
 }
 function myfunction() {
