@@ -1,3 +1,5 @@
+//var timeurl = "http://api.k780.com/?app=life.time&appkey=APPKEY&sign=SIGN&format=json";
+var newurl = "http://worldtimeapi.org/api/ip";
 function gettimezone() {
     var timer = new Date();
     var gmtHours = timer.getTimezoneOffset()/60;
@@ -5,6 +7,12 @@ function gettimezone() {
     return gmtHours;
 }
 function ShowTimes(){
+    var timezone = "";
+    fetch(newurl)
+        .then((res) => res.json())
+        .then((data) => {
+            timezone = data.abbreviation;
+        })
     var gmthours = gettimezone();
     var diffhr = 24 - gmthours;
     var expressday = "2020/06/25 00:"+diffhr+":00"

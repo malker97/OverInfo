@@ -29,6 +29,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",HTML5_OUTLINE_MODE" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -41,6 +44,8 @@
       <updated>1591153613592</updated>
       <workItem from="1591153615983" duration="12248000" />
       <workItem from="1591186694803" duration="3401000" />
+      <workItem from="1591335023968" duration="655000" />
+      <workItem from="1591336047842" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="更改了文件的位置，并且实现了根据浏览器语言来更改背景照片的功能。">
       <created>1591160113627</created>
