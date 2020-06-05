@@ -94,5 +94,5 @@ Get Overwatch Player Information API: "http://owapi.io/profile/pc/us/[USERNAME]-
   "week_number": 23
 }
 ```
-### Netease Blizzard Img api:"http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/[heronames].png"
+### Netease Blizzard IMG API:"http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/[heronames].png"
 ![Dva](http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/dva.png)
