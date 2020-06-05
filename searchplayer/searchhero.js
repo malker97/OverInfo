@@ -26,6 +26,9 @@ function myfunction() {
             // if (data.private == false){
             //     alert("你已经关闭生涯了！");
             // }
+            // document.cookie = data;
+            // console.log(document.cookie);
+            // alert(document.cookie.competitive.tank.rank);
             tankrank = data.competitive.tank.rank;
             damagerank = data.competitive.damage.rank;
             supportrank =  data.competitive.support.rank;

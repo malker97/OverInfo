@@ -28,6 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",HTML5_OUTLINE_MODE" />
@@ -46,6 +47,7 @@
       <workItem from="1591186694803" duration="3401000" />
       <workItem from="1591335023968" duration="655000" />
       <workItem from="1591336047842" duration="275000" />
+      <workItem from="1591356317740" duration="771000" />
     </task>
     <task id="LOCAL-00001" summary="更改了文件的位置，并且实现了根据浏览器语言来更改背景照片的功能。">
       <created>1591160113627</created>
