@@ -1,4 +1,4 @@
-/images
-/.idea
-/fonts
-/plugins
+./images
+./.idea
+./fonts
+./plugins
