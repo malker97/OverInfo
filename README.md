@@ -100,6 +100,54 @@ Get Overwatch Player Information API: "http://owapi.io/profile/pc/us/[USERNAME]-
 ### Netease Blizzard IMG API:"http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/[heronames].png"
 ![Dva](http://overwatch.nos.netease.com/1/assets/img/pages/heroes/list/dva.png)
 
+### News API :"http://newsapi.org/v2/everything\?q\=overwatch\&from\=2020-06-03\&sortBy\=publishedAt\&apiKey\=APIKEY"
+``` json
+{
+  "status": "ok",
+  "totalResults": 1141,
+  "articles": [
+    {
+      "source": {
+        "id": "focus",
+        "name": "Focus"
+      },
+      "author": "FOCUS Online",
+      "title": "Profi-Gamer - Beliebter Twitch-Streamer \"Reckful\" tot: Byron Bernstein stirbt mit nur 31 Jahren",
+      "description": "Der bekannte Gamer Byron \"Reckful\" Bernstein ist tot. Er ist am Donnerstag im Alter von nur 31 Jahren gestorben. Seine Freundin bestätigte die traurige Nachricht via Twitter.",
+      "url": "https://www.focus.de/digital/profi-computerspieler-twitch-streamer-reckful-ist-tot-byron-bernstein-stirbt-mit-31-jahren_id_12170331.html",
+      "urlToImage": "https://p5.focus.de/img/fotos/crop12170302/8352712155-w1200-h627-o-q75-p5/320742490-reckful-twitch-streamer-fzghjvcxua7.jpg",
+      "publishedAt": "2020-07-03T09:05:03Z",
+      "content": "Der bekannte Gamer Byron \"Reckful\" Bernstein ist tot. Er ist am Donnerstag im Alter von nur 31 Jahren gestorben. Seine Freundin bestätigte die traurige Nachricht via Twitter.\r\nDer US-amerikanische Pr… [+1847 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Belloflostsouls.net"
+      },
+      "author": "Adam Solis",
+      "title": "Competitive 40K: Missing Pieces of the 9th Edition Puzzle",
+      "description": "9th Edition is almost here, but there are a few pieces of the puzzle missing to truly understand the game.   Well, it has been and exciting couple of days.\nThe post Competitive 40K: Missing Pieces of the 9th Edition Puzzle appeared first on Bell of Lost Souls.",
+      "url": "https://www.belloflostsouls.net/2020/07/competitive-40k-missing-pieces-of-the-9th-edition-puzzle.html",
+      "urlToImage": "http://www.belloflostsouls.net/wp-content/uploads/2020/07/40k-9th-missing-pieces.jpg",
+      "publishedAt": "2020-07-03T07:00:23Z",
+      "content": "9th Edition is almost here, but there are a few pieces of the puzzle missing to truly understand the game.\r\nWell, it has been and exciting couple of days. We finally have a look at the core rules for… [+4372 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "The National Interest "
+      },
+      "author": "Charlie Gao",
+      "title": "Watch Out, Glock: The Faxon FX-19 Pistol Is Coming for the Throne",
+      "description": "Charlie Gao\nSecurity, Americas\n \nA great upset?\nKey point: Glock is the long-reigning king. However, this new contender is one for everyone to pay attention to..\nThe Glock is America’s most popular pistol. Used by almost every branch of the military and over …",
+      "url": "https://nationalinterest.org/blog/reboot/watch-out-glock-faxon-fx-19-pistol-coming-throne-164110",
+      "urlToImage": "https://nationalinterest.org/sites/default/files/main_images/A694%20%281%29_0.jpg",
+      "publishedAt": "2020-07-03T06:00:00Z",
+      "content": "Key point: Glock is the long-reigning king. However, this new contender is one for everyone to pay attention to..\r\nThe Glock is Americas most popular pistol. Used by almost every branch of the milita… [+2938 chars]"
+    },
+)
+```
+
 ## Update
 60c353c-Zhengmao, 18 minutes ago: Updated the ReadMe file
 b3e10d2-Zhengmao, 19 minutes ago: Updated the ReadMe file
