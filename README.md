@@ -1,6 +1,6 @@
 ## Update
-2020年7月3日 开始继续更新该项目
-Make this Repo to public
+* 2020年7月3日 开始继续更新该项目
+* Make this Repo to public
 
 # About this project
 
