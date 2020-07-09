@@ -146,7 +146,7 @@ Get Overwatch Player Information API: "http://owapi.io/profile/pc/us/[USERNAME]-
       "publishedAt": "2020-07-03T06:00:00Z",
       "content": "Key point: Glock is the long-reigning king. However, this new contender is one for everyone to pay attention to..\r\nThe Glock is Americas most popular pistol. Used by almost every branch of the milita… [+2938 chars]"
     },
-)
+}
 ```
 
 ## Update
