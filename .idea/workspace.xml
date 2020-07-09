@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="801176fe-6c62-42f2-953c-2242792882d2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/endofseason.html" beforeDir="false" afterPath="$PROJECT_DIR$/endofseason.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +48,7 @@
       <workItem from="1591335023968" duration="655000" />
       <workItem from="1591336047842" duration="275000" />
       <workItem from="1591356317740" duration="1981000" />
+      <workItem from="1594282168794" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="更改了文件的位置，并且实现了根据浏览器语言来更改背景照片的功能。">
       <created>1591160113627</created>
