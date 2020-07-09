@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="801176fe-6c62-42f2-953c-2242792882d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/temp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <workItem from="1591335023968" duration="655000" />
       <workItem from="1591336047842" duration="275000" />
       <workItem from="1591356317740" duration="1981000" />
-      <workItem from="1594282168794" duration="463000" />
+      <workItem from="1594282168794" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="更改了文件的位置，并且实现了根据浏览器语言来更改背景照片的功能。">
       <created>1591160113627</created>
