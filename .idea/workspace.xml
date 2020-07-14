@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="801176fe-6c62-42f2-953c-2242792882d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/endofseason.html" beforeDir="false" afterPath="$PROJECT_DIR$/endofseason.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/endofseason/enofseas.js" beforeDir="false" afterPath="$PROJECT_DIR$/endofseason/enofseas.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +73,7 @@
       <workItem from="1594282168794" duration="822000" />
       <workItem from="1594284775346" duration="475000" />
       <workItem from="1594691159209" duration="44000" />
-      <workItem from="1594749775088" duration="195000" />
+      <workItem from="1594749775088" duration="2679000" />
     </task>
     <task id="LOCAL-00001" summary="更改了文件的位置，并且实现了根据浏览器语言来更改背景照片的功能。">
       <created>1591160113627</created>
@@ -107,6 +110,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="906" y="378" key="#Inspections/0.0.2560.1400/2560.0.1080.1880@0.0.2560.1400" timestamp="1591157945971" />
+    <state x="198" y="642" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1594750774563">
+      <screen x="0" y="0" width="1080" height="1920" />
+    </state>
+    <state x="198" y="642" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1080.1920@0.0.1080.1920" timestamp="1594750774563" />
     <state x="878" y="267" key="CommitChangelistDialog2" timestamp="1591160112963">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
