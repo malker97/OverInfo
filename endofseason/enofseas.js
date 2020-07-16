@@ -60,4 +60,5 @@ function ShowTimes(){
 const browsertype = judgebrower();
 if (browsertype == 'Safari')
     alert("Sorry, We are not support Safari now!");
+
 setInterval(ShowTimes,100);
