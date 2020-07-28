@@ -1,6 +1,4 @@
 ## Announcement
-* 这是一个守望先锋玩家开发的关于游戏的第三方非盈利网站，项目中的图片等内容鬼所有方暴雪公司所有。
-* This is a third-party non-profit website about the game developed by Overwatch players. The pictures and other content in the project are ghostly owned by Blizzard.
 ## Update
 * R.I.P Roberto Draghetti
 * 📅删除了早期的日志，增加了新的模板，模板标题没更改
