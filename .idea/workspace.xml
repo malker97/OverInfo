@@ -28,9 +28,6 @@
   <component name="ChangeListManager">
     <list default="true" id="801176fe-6c62-42f2-953c-2242792882d2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/endofseason.html" beforeDir="false" afterPath="$PROJECT_DIR$/endofseason.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/endofseason/enofseas.js" beforeDir="false" afterPath="$PROJECT_DIR$/endofseason/enofseas.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp.html" beforeDir="false" afterPath="$PROJECT_DIR$/temp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,9 +82,17 @@
       <workItem from="1594754656869" duration="481000" />
       <workItem from="1594755600706" duration="1026000" />
       <workItem from="1594884304824" duration="507000" />
+<<<<<<< HEAD
+      <workItem from="1594885068234" duration="2435000" />
+=======
       <workItem from="1594885068234" duration="463000" />
       <workItem from="1595831674498" duration="2221000" />
+<<<<<<< HEAD
       <workItem from="1595836274673" duration="1804000" />
+=======
+      <workItem from="1595836274673" duration="1205000" />
+>>>>>>> dfbf3508abe120c15c0f77494bf8abf81fd076bc
+>>>>>>> 79df9ba244a1290ca37ea19a5baeaca50e9121c0
     </task>
     <task id="LOCAL-00001" summary="更改了文件的位置，并且实现了根据浏览器语言来更改背景照片的功能。">
       <created>1591160113627</created>
@@ -144,10 +149,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="878" y="267" key="CommitChangelistDialog2/0.0.2560.1400/2560.0.1080.1880@0.0.2560.1400" timestamp="1591160112963" />
+<<<<<<< HEAD
+    <state x="343" y="871" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594903881282">
+      <screen x="0" y="23" width="1080" height="1856" />
+    </state>
+    <state x="343" y="871" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1080.1856@0.23.1080.1856" timestamp="1594903881282" />
+=======
     <state x="781" y="344" key="SettingsEditor" timestamp="1595834330952">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1595834330952" />
+>>>>>>> dfbf3508abe120c15c0f77494bf8abf81fd076bc
     <state x="850" y="0" width="1717" height="1407" key="dock-window-1" timestamp="1591154955561">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
