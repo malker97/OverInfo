@@ -8,7 +8,9 @@ function getnews() {
             // console.log(data);
             // alert(data);
             console.log(data.articles[1].title);
-            document.getElementById("newstitle").innerText=data.articles[1].title;
+            document.getElementById("newstitle1").innerText=data.articles[1].title;
+            document.getElementById("description1").innerText=data.articles[1].description;
+            document.getElementById("newstitle1").href=data.articles[1].url;
 
         })
 }
