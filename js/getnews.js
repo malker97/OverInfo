@@ -1,4 +1,4 @@
-var newsurl="http://newsapi.org/v2/everything\?q\=overwatch\&from\=2020-06-30\&sortBy\=publishedAt\&apiKey\=b0eb5e0f24ef42c2ada704c8036d1595";
+var newsurl="http://newsapi.org/v2/everything\?q\=overwatch\&from\=2020-07-15\&sortBy\=publishedAt\&apiKey\=b0eb5e0f24ef42c2ada704c8036d1595";
 var localdate = new Date();
 var localyear = localdate.getFullYear();
 // alert(localyear);
