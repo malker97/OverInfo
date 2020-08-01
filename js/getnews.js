@@ -1,4 +1,5 @@
-var newsurl="http://newsapi.org/v2/everything\?q\=overwatch\&from\=2020-07-15\&sortBy\=publishedAt\&apiKey\=b0eb5e0f24ef42c2ada704c8036d1595";
+var newsurl="http://newsapi.org/v2/everything\?q\=overwatch\&from\=2020-"
+var date ="07-15\&sortBy\=publishedAt\&apiKey\=b0eb5e0f24ef42c2ada704c8036d1595";
 var localdate = new Date();
 var localyear = localdate.getFullYear();
 // alert(localyear);
@@ -13,6 +14,7 @@ function getnews() {
             // 这里是获取到的新闻json内容，data已经是这个内容类型的头了
             // console.log(data);
             // alert(data);
+
             console.log(data.articles[1].title);
             document.getElementById("newstitle1").innerText=data.articles[1].title;
             document.getElementById("description1").innerText=data.articles[1].description;
