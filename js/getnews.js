@@ -33,6 +33,7 @@ function getnews() {
                 var titleid = "newstitle"+i;
                 var imgid = "newsimg"+i;
                 document.getElementById(titleid).innerText = data.articles[i].title;
+                // document.getElementById(titleid).style.textAlign = 'center';
                 document.getElementById(imgid).src = data.articles[i].urlToImage;
             }
         })
