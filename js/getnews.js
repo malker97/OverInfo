@@ -4,7 +4,7 @@ var localyear = localdate.getFullYear();
 // alert(localyear);
 // var localdat
 var localdateM_d = localdate.getDate();
-alert(localdateM_d);
+// alert(localdateM_d);
 // alert("sadasdasda");
 function getnews() {
     fetch(newsurl)
@@ -14,18 +14,27 @@ function getnews() {
             console.log(data);
             // alert(data);
 
-            console.log(data.articles[1].title);
-            document.getElementById("newstitle1").innerText=data.articles[1].title;
-            document.getElementById("description1").innerText=data.articles[1].description;
-            document.getElementById("newstitle1").href=data.articles[1].url;
-            document.getElementById("newsimg1").src=data.articles[1].urlToImage;
+            // console.log(data.articles[1].title);
+            // document.getElementById("newstitle1").innerText=data.articles[1].title;
+            // document.getElementById("description1").innerText=data.articles[1].description;
+            // document.getElementById("newstitle1").href=data.articles[1].url;
+            // document.getElementById("newsimg1").src=data.articles[1].urlToImage;
             let output = '';
             for (var i in data.articles){
-                output = output + "<h1><a class='newstitle" + i +"'>"+data.articles[i].title+"</a></h1>";
-                // output = output + "<h1 class='newstitle" + i +"'>"+"</h1>";
+                output = output + "<h1><a id='newstitle" + i +"'>"+"</a></h1>";
+                // <p id="description1"></p>
+                output = output + "<p id='description" + i +"'>"+"</p>";
+                // <img id="newsimg1" src="">
+                output = output + "<img id='newsimg" + i +"'>";
             }
             document.getElementById("result").innerHTML = output;
-            alert(output);
+            // alert(output);
+            for (var i in data.articles){
+                var titleid = "newstitle"+i;
+                var imgid = "newsimg"+i;
+                document.getElementById(titleid).innerText = data.articles[i].title;
+                document.getElementById(imgid).src = data.articles[i].urlToImage;
+            }
         })
 }
 // alert(<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Old soldiers never die, and they don&#39;t fade away.<br><br>We honor the memory of Roberto Draghetti who brought us the voice of Soldier: 76 in Italy. His extraordinary talent and unmistakable voice delivered depth and passion to one of Overwatch’s most iconic heroes. <a href="https://t.co/3D8TzEWdMx">pic.twitter.com/3D8TzEWdMx</a></p>&mdash; Overwatch (@PlayOverwatch) <a href="https://twitter.com/PlayOverwatch/status/1287887276182130688?ref_src=twsrc%5Etfw">July 27, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>);
