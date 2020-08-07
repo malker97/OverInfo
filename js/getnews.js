@@ -19,14 +19,23 @@ function getnews() {
             // document.getElementById("description1").innerText=data.articles[1].description;
             // document.getElementById("newstitle1").href=data.articles[1].url;
             // document.getElementById("newsimg1").src=data.articles[1].urlToImage;
-            let output = '';
+            let output = "";
+            output = output + "<div> class = 'news-list'";
+            output = output + "<ul class= 'clearfix'>";
             for (var i in data.articles){
-                output = output + "<h1><a id='newstitle" + i +"'>"+"</a></h1>";
+                output = output + "<li>";
+                output = output + "<img id = 'newsimg " + i +"'>";
+                output = output + "<h3 id = 'newstitle"+ i +"'>" + "</h3>";
+                output = output + "<p id = 'description"+ i +"'>" + "</p>";
+                output = output + "</li>";
+                // output = output + "<h3><a id='newstitle" + i +"'>"+"</a></h3>";
                 // <p id="description1"></p>
-                output = output + "<p id='description" + i +"'>"+"</p>";
+                // output = output + "<p id='description" + i +"'>"+"</p>";
                 // <img id="newsimg1" src="">
-                output = output + "<img id='newsimg" + i +"'>";
+                // output = output + "<img id='newsimg" + i +"'>";
             }
+            output = output + "</ul>"
+            output = output + "</div>";
             document.getElementById("result").innerHTML = output;
             // alert(output);
             for (var i in data.articles){
