@@ -20,7 +20,7 @@ function getnews() {
             // document.getElementById("newstitle1").href=data.articles[1].url;
             // document.getElementById("newsimg1").src=data.articles[1].urlToImage;
             let output = '';
-            for (var i in data.articles){
+            for (var i in data.articles)
                 output = output + "<h1><a id='newstitle" + i +"'>"+"</a></h1>";
                 // <p id="description1"></p>
                 output = output + "<p id='description" + i +"'>"+"</p>";
@@ -35,6 +35,7 @@ function getnews() {
                 document.getElementById(titleid).innerText = data.articles[i].title;
                 // document.getElementById(titleid).style.textAlign = 'center';
                 document.getElementById(imgid).src = data.articles[i].urlToImage;
+                document.getElementById(titleid).href = data.articles[i].url;
             }
         })
 }
