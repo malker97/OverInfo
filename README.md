@@ -40,6 +40,9 @@ Host：[https://malker97.github.io/](https://malker97.github.io/OverInfo)
 ### IF there are some ISSUE
 Please tell us at the feedback part or connect me via the email.
 [![Build Status](https://img.shields.io/bitbucket/issues-raw/malker97/OverInfo)](https://github.com/malker97/OverInfo)
+### Contributer
+OverInfo is always looking for contributions, whether it's through bug reports, code, or new translations.
+我们始终寻找与我们志同道合的合作者，不论是提交bugh还是提供翻译，或者与我们合作开发api
 ### Data (API)
 Get Overwatch Player Information API: "http://owapi.io/profile/pc/us/[USERNAME]-[USERNUMBER]";
 ```json
