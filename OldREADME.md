@@ -1,49 +1,32 @@
-# OverInfo[![Build Status](https://img.shields.io/cran/l/devtools)](https://github.com/malker97/OverInfo) [![Build Status](https://img.shields.io/github/languages/count/malker97/OverInfo)](https://github.com/malker97/OverInfo) 
+# OverInfo [![Build Status](https://img.shields.io/cran/l/devtools)](https://github.com/malker97/OverInfo) 
+这是一个第三方的关于守望先锋信息的查询网站，主要提供的功能有信息查询，新闻显示和相关的游戏的内容信息（地图和英雄）。近期可能会上线多个账号sr查询的功能和新闻信息的排版。
+
+*******
 ## Announcement
-游戏中出现的Overwatch, 守望先锋等图片图标均暴雪娱乐有限公司版权所有
-Overwatch, Overwatch and other picture icons appearing in the game are copyrighted by Blizzard Entertainment Co., Ltd.
-## About
-这是一个关于守望先锋的第三方玩家自制的网站，玩家可以在网站中查看自己账号的竞技分数，每赛季竞技比赛的倒计时，地图的相关背景故事，英雄的具体参数。不仅如此，我们近期还上线了于游戏相关的第三方新闻查询接口，玩家可以在我们的网站上查看最近一个月的与守望先锋相关的新闻信息。
+## Update
+* github的io项目好像不允许使用hhtp的js代码，所以公网访问的项目是不能显示新闻和查询的。如果真的要上线的话，可能需要把js写到相应的文档里。如果最终没有上线的话，用户还是可以下载来使用的
+* R.I.P Roberto Draghetti
+* 📅删除了早期的日志，增加了新的模板，模板标题没更改
+* 2020年7月3日 开始继续更新该项目.
+* Make this Repo to public
 
-This is a third-party player-made website about Overwatch. Players can view their account's competitive scores, countdown of each season's competitive games, map-related background stories, and specific hero parameters. Not only that, we have also recently launched a third-party news query interface related to the game. Players can view the latest news related to Overwatch on our website.
-> 关于竞技分数查询的功能，目前只有美服，亚服和欧洲的玩家可以查询到与自己相关的信息。对于中国大陆的游戏玩家，因为网易公司并没有向玩家开放相应的接口，所以，目前我们并不能在国服玩家中实现这一功能。
+# About this project
 
->Regarding the function of querying competitive scores, currently only players in the US server, Asian server and Europe can query information related to themselves. For gamers in mainland China, because NetEase does not open the corresponding interface to players, we cannot currently implement this function for players in the national server.
-## How to use
-### Best Way
-首先是建议用户将我们的完整代码下载到本地，因为本项目已经安装好了所有的依赖环境，包括固定版本的Boostrap的依赖包，这可以使得您可以体验到与我们完全相同的功能。
+## The Repo [URL:https://github.com/malker97/CS410PFeFinalProject](https://github.com/malker97/CS410PFeFinalProject)
+This Repo written by Xiaoran and Zhengmao.
 
-First of all, it is recommended that users download our complete code locally, because this project has installed all the dependent environments, including the fixed version of the Boostrap dependent package, which allows you to experience exactly the same functions as ours.
+##The Host[URL:https://malker97.github.io/](https://malker97.github.io/)
 
-[![Build Status](https://img.shields.io/github/repo-size/malker97/OverInfo)](https://github.com/malker97/OverInfo)
-```shell script
-git clone https://github.com/malker97/OverInfo.git
-```
-### Another Way
-因为Github目前并不允许使用以http方式传输的JavaScript脚本，所以查询功能目前并不能在github的io项目中查看，但是您依旧可以畅游其他功能。
-
-Because Github currently does not allow the use of JavaScript scripts transmitted via http, the query function is currently not available in the github io project, but you can still enjoy other functions.
-Host：[https://malker97.github.io/](https://malker97.github.io/OverInfo)
-### What we used
-#### About Template
-> 所有代码都必须由您编写。如果您使用任何外部库或遵循任何教程，则应在项目自述文件中进行记录。
-
+## About Template
 > All code must be written by you. If you use any outside libraries or follow any tutorials, you should document that in your project Readme.
 * The original template is included in the CSS folder and JS folder
-* 原始模板包含在CSS文件夹和JS文件夹中,其中多数为依赖包
 
-> about the searchmorethanone.js cuz its my owned repo, so i just copy it to OverInfo. when its useable i will upload its to searchhero webpage
-#### any outside libraries or follow any tutorials
+### any outside libraries or follow any tutorials
 * CSS: Bootstrap[URL](https://getbootstrap.com/) jQurery[url](https://jquery.com/) CSS Template[URL](http://www.templatesy.com/)
 * JS: Bootstrap[URL](https://getbootstrap.com/) CSS Template[URL](http://www.templatesy.com/)
-
-### IF there are some ISSUE
-Please tell us at the feedback part or connect me via the email.
-[![Build Status](https://img.shields.io/bitbucket/issues-raw/malker97/OverInfo)](https://github.com/malker97/OverInfo)
-### Contributer
-OverInfo is always looking for contributions, whether it's through bug reports, code, or new translations.
-我们始终寻找与我们志同道合的合作者，不论是提交bugh还是提供翻译，或者与我们合作开发api
-### Data (API)
+## Journal 
+All logs are stored in Commit list in Chinses. :(
+## The API We Used
 Get Overwatch Player Information API: "http://owapi.io/profile/pc/us/[USERNAME]-[USERNUMBER]";
 ```json
 {
@@ -174,3 +157,4 @@ Get Overwatch Player Information API: "http://owapi.io/profile/pc/us/[USERNAME]-
 ]
 }
 ```
+

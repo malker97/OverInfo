@@ -19,6 +19,7 @@ function getnews() {
             // document.getElementById("description1").innerText=data.articles[1].description;
             // document.getElementById("newstitle1").href=data.articles[1].url;
             // document.getElementById("newsimg1").src=data.articles[1].urlToImage;
+<<<<<<< HEAD
             let output = "";
             output = output + "<div class = 'news-list'>";
             output = output + "<ul class= 'clearfix'>";
@@ -29,6 +30,11 @@ function getnews() {
                 output = output + "<p id = 'description"+ i +"'>" + "</p>";
                 output = output + "</li>";
                 // output = output + "<h3><a id='newstitle" + i +"'>"+"</a></h3>";
+=======
+            let output = '';
+            for (var i in data.articles)
+                output = output + "<h1><a id='newstitle" + i +"'>"+"</a></h1>";
+>>>>>>> master
                 // <p id="description1"></p>
                 // output = output + "<p id='description" + i +"'>"+"</p>";
                 // <img id="newsimg1" src="">
@@ -47,11 +53,15 @@ function getnews() {
                 document.getElementById(titleid).href=data.articles[i].url;
                 //alert(data.articles[i].url);
                 document.getElementById(imgid).src = data.articles[i].urlToImage;
+<<<<<<< HEAD
                 document.getElementById(imgid).href = data.articles[i].url;
                 document.getElementById(descriptionid).innerText = data.articles[i].description;
                 // document.getElementById(newstitle).innerText = data.articles[i].title;
                 // // document.getElementById(titleid).style.textAlign = 'center';
                 // document.getElementById(newsimg).src = data.articles[i].urlToImage;
+=======
+                document.getElementById(titleid).href = data.articles[i].url;
+>>>>>>> master
             }
         })
 }
