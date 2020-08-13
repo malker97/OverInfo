@@ -31,6 +31,8 @@ Host：[https://malker97.github.io/](https://malker97.github.io/OverInfo)
 > All code must be written by you. If you use any outside libraries or follow any tutorials, you should document that in your project Readme.
 * The original template is included in the CSS folder and JS folder
 * 原始模板包含在CSS文件夹和JS文件夹中,其中多数为依赖包
+
+> about the searchmorethanone.js cuz its my owned repo, so i just copy it to OverInfo. when its useable i will upload its to searchhero webpage
 #### any outside libraries or follow any tutorials
 * CSS: Bootstrap[URL](https://getbootstrap.com/) jQurery[url](https://jquery.com/) CSS Template[URL](http://www.templatesy.com/)
 * JS: Bootstrap[URL](https://getbootstrap.com/) CSS Template[URL](http://www.templatesy.com/)
