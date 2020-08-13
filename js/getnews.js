@@ -20,11 +20,11 @@ function getnews() {
             // document.getElementById("newstitle1").href=data.articles[1].url;
             // document.getElementById("newsimg1").src=data.articles[1].urlToImage;
             let output = "";
-            output = output + "<div> class = 'news-list'";
+            output = output + "<div class = 'news-list'>";
             output = output + "<ul class= 'clearfix'>";
             for (var i in data.articles){
                 output = output + "<li>";
-                output = output + "<img id = 'newsimg " + i +"'>";
+                output = output + "<img  id = 'newsimg" + i +"'>";
                 output = output + "<h3 id = 'newstitle"+ i +"'>" + "</h3>";
                 output = output + "<p id = 'description"+ i +"'>" + "</p>";
                 output = output + "</li>";
@@ -36,14 +36,22 @@ function getnews() {
             }
             output = output + "</ul>"
             output = output + "</div>";
+            // alert(output);
             document.getElementById("result").innerHTML = output;
             // alert(output);
             for (var i in data.articles){
-                var titleid = "newstitle"+i;
                 var imgid = "newsimg"+i;
+                var titleid = "newstitle"+i;
+                var descriptionid = "description"+i;
                 document.getElementById(titleid).innerText = data.articles[i].title;
-                // document.getElementById(titleid).style.textAlign = 'center';
+                document.getElementById(titleid).href=data.articles[i].url;
+                //alert(data.articles[i].url);
                 document.getElementById(imgid).src = data.articles[i].urlToImage;
+                document.getElementById(imgid).href = data.articles[i].url;
+                document.getElementById(descriptionid).innerText = data.articles[i].description;
+                // document.getElementById(newstitle).innerText = data.articles[i].title;
+                // // document.getElementById(titleid).style.textAlign = 'center';
+                // document.getElementById(newsimg).src = data.articles[i].urlToImage;
             }
         })
 }
