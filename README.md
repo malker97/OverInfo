@@ -1,4 +1,4 @@
-# OverInfo[![Build Status](https://img.shields.io/cran/l/devtools)](https://github.com/malker97/OverInfo) [![Build Status](https://img.shields.io/github/languages/count/malker97/OverInfo)](https://github.com/malker97/OverInfo) 
+# OverInfo[![Build Status](https://img.shields.io/cran/l/devtools)](https://github.com/malker97/OverInfo/blob/master/LICENSE) [![Build Status](https://img.shields.io/github/languages/count/malker97/OverInfo)](https://github.com/malker97/OverInfo) 
 ## Announcement
 游戏中出现的Overwatch, 守望先锋等图片图标均暴雪娱乐有限公司版权所有
 Overwatch, Overwatch and other picture icons appearing in the game are copyrighted by Blizzard Entertainment Co., Ltd.
@@ -39,7 +39,7 @@ Host：[https://malker97.github.io/](https://malker97.github.io/OverInfo)
 
 ### IF there are some ISSUE
 Please tell us at the feedback part or connect me via the email.
-[![Build Status](https://img.shields.io/bitbucket/issues-raw/malker97/OverInfo)](https://github.com/malker97/OverInfo)
+[![Build Status](https://img.shields.io/bitbucket/issues-raw/malker97/OverInfo)](https://github.com/malker97/OverInfo/issues)
 ### Contributer
 OverInfo is always looking for contributions, whether it's through bug reports, code, or new translations.
 我们始终寻找与我们志同道合的合作者，不论是提交bugh还是提供翻译，或者与我们合作开发api
