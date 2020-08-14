@@ -9,6 +9,10 @@ This is a third-party player-made website about Overwatch. Players can view thei
 > 关于竞技分数查询的功能，目前只有美服，亚服和欧洲的玩家可以查询到与自己相关的信息。对于中国大陆的游戏玩家，因为网易公司并没有向玩家开放相应的接口，所以，目前我们并不能在国服玩家中实现这一功能。
 
 >Regarding the function of querying competitive scores, currently only players in the US server, Asian server and Europe can query information related to themselves. For gamers in mainland China, because NetEase does not open the corresponding interface to players, we cannot currently implement this function for players in the national server.
+## What we've updated this summer
+### Search rank by userID
+![alt playersearch](images/resource/rank search.png)
+
 ## How to use
 ### Best Way
 首先是建议用户将我们的完整代码下载到本地，因为本项目已经安装好了所有的依赖环境，包括固定版本的Boostrap的依赖包，这可以使得您可以体验到与我们完全相同的功能。
