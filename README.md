@@ -19,6 +19,7 @@ This is a third-party player-made website about Overwatch. Players can view thei
 ### Finished Up Hero Info
 ![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/hero%20list.png?raw=true)
 ![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/hero%20page.png?raw=true)
+> The hero info source: playoverwatch.com
 
 ## How to use
 ### Best Way
