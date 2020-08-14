@@ -16,7 +16,7 @@ This is a third-party player-made website about Overwatch. Players can view thei
 ### News-list
 ![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/newslist.png?raw=true)
 
-### Finished Up Hero Info
+### Finished Up The Hero Info
 ![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/hero%20list.png?raw=true)
 ![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/hero%20page.png?raw=true)
 > The skill description and video demonstration are from the playoverwatch.com
