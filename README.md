@@ -13,6 +13,13 @@ This is a third-party player-made website about Overwatch. Players can view thei
 ### Search rank by userID
 ![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/rank%20search.png?raw=true)
 
+### News-list
+![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/newslist.png?raw=true)
+
+### Finish up hero info
+![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/hero%20list.png?raw=true)
+![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/hero%20page.png?raw=true)
+
 ## How to use
 ### Best Way
 首先是建议用户将我们的完整代码下载到本地，因为本项目已经安装好了所有的依赖环境，包括固定版本的Boostrap的依赖包，这可以使得您可以体验到与我们完全相同的功能。
