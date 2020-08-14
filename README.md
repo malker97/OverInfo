@@ -10,13 +10,13 @@ This is a third-party player-made website about Overwatch. Players can view thei
 
 >Regarding the function of querying competitive scores, currently only players in the US server, Asian server and Europe can query information related to themselves. For gamers in mainland China, because NetEase does not open the corresponding interface to players, we cannot currently implement this function for players in the national server.
 ## What we've updated this summer
-### Search rank by userID
+### Search Rank By UserID
 ![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/rank%20search.png?raw=true)
 
 ### News-list
 ![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/newslist.png?raw=true)
 
-### Finish up hero info
+### Finished Up Hero Info
 ![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/hero%20list.png?raw=true)
 ![alt playersearch](https://github.com/malker97/OverInfo/blob/master/images/resource/hero%20page.png?raw=true)
 
