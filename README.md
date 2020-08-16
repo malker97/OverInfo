@@ -1,4 +1,6 @@
 # OverInfo[![Build Status](https://img.shields.io/cran/l/devtools)](https://github.com/malker97/OverInfo/blob/master/LICENSE) [![Build Status](https://img.shields.io/github/languages/count/malker97/OverInfo)](https://github.com/malker97/OverInfo) 
+Zhengmao Zhang@malker97 Zhi Zhang@Zhi22 Xiaoran Ge@WinnieThePooln
+
 ## Announcement
 游戏中出现的Overwatch, 守望先锋等图片图标均暴雪娱乐有限公司版权所有
 Overwatch, Overwatch and other picture icons appearing in the game are copyrighted by Blizzard Entertainment Co., Ltd.
