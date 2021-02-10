@@ -1,3 +1,5 @@
+# 很不幸，项目因为被校方老师怀疑抄袭，所以目前无法更新。如有问题可以在ISSUE留言，依旧为玩家提供更新支持
+
 # OverInfo[![Build Status](https://img.shields.io/cran/l/devtools)](https://github.com/malker97/OverInfo/blob/master/LICENSE) [![Build Status](https://img.shields.io/github/languages/count/malker97/OverInfo)](https://github.com/malker97/OverInfo) 
 Zhengmao Zhang@malker97 Zhi Zhang@Zhi22 Xiaoran Ge@WinnieThePooln
 
